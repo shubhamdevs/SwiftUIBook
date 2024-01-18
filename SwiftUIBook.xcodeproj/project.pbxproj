@@ -19,6 +19,9 @@
 		5130B4C22B5988600044C8BC /* CUV_WithActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5130B4C12B5988600044C8BC /* CUV_WithActions.swift */; };
 		5130B4C42B598A440044C8BC /* CUV_IntendedUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5130B4C32B598A440044C8BC /* CUV_IntendedUse.swift */; };
 		5130B4C62B598BF30044C8BC /* CUV_Paging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5130B4C52B598BF30044C8BC /* CUV_Paging.swift */; };
+		5130B4CD2B5995800044C8BC /* RegularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5130B4CC2B5995800044C8BC /* RegularButton.swift */; };
+		5130B4CF2B5997DE0044C8BC /* Button_WithBackgrounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5130B4CE2B5997DE0044C8BC /* Button_WithBackgrounds.swift */; };
+		5130B4D12B599A730044C8BC /* Button_WithSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5130B4D02B599A730044C8BC /* Button_WithSymbols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		5130B4C12B5988600044C8BC /* CUV_WithActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUV_WithActions.swift; sourceTree = "<group>"; };
 		5130B4C32B598A440044C8BC /* CUV_IntendedUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUV_IntendedUse.swift; sourceTree = "<group>"; };
 		5130B4C52B598BF30044C8BC /* CUV_Paging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUV_Paging.swift; sourceTree = "<group>"; };
+		5130B4CC2B5995800044C8BC /* RegularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularButton.swift; sourceTree = "<group>"; };
+		5130B4CE2B5997DE0044C8BC /* Button_WithBackgrounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_WithBackgrounds.swift; sourceTree = "<group>"; };
+		5130B4D02B599A730044C8BC /* Button_WithSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_WithSymbols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,7 @@
 		5130B4A32B5977F10044C8BC /* SwiftUIBook */ = {
 			isa = PBXGroup;
 			children = (
+				5130B4C72B598EB50044C8BC /* Control Views */,
 				5130B4BC2B59839F0044C8BC /* ContentUnavailableView */,
 				5130B4B92B597E430044C8BC /* ViewThatFits */,
 				5130B4B62B597B680044C8BC /* ControlGroup */,
@@ -129,6 +136,24 @@
 				5130B4C52B598BF30044C8BC /* CUV_Paging.swift */,
 			);
 			path = ContentUnavailableView;
+			sourceTree = "<group>";
+		};
+		5130B4C72B598EB50044C8BC /* Control Views */ = {
+			isa = PBXGroup;
+			children = (
+				5130B4CB2B59956A0044C8BC /* Buttons */,
+			);
+			path = "Control Views";
+			sourceTree = "<group>";
+		};
+		5130B4CB2B59956A0044C8BC /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				5130B4CC2B5995800044C8BC /* RegularButton.swift */,
+				5130B4CE2B5997DE0044C8BC /* Button_WithBackgrounds.swift */,
+				5130B4D02B599A730044C8BC /* Button_WithSymbols.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,12 +227,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				5130B4B82B597B7B0044C8BC /* ControlGroup_Intro.swift in Sources */,
+				5130B4CF2B5997DE0044C8BC /* Button_WithBackgrounds.swift in Sources */,
 				5130B4BE2B5983CA0044C8BC /* CUV_Concept.swift in Sources */,
 				5130B4C22B5988600044C8BC /* CUV_WithActions.swift in Sources */,
 				5130B4A72B5977F10044C8BC /* ContentView.swift in Sources */,
 				5130B4A52B5977F10044C8BC /* SwiftUIBookApp.swift in Sources */,
+				5130B4CD2B5995800044C8BC /* RegularButton.swift in Sources */,
 				5130B4B52B5978700044C8BC /* ScrollViewReader1.swift in Sources */,
 				5130B4C62B598BF30044C8BC /* CUV_Paging.swift in Sources */,
+				5130B4D12B599A730044C8BC /* Button_WithSymbols.swift in Sources */,
 				5130B4C42B598A440044C8BC /* CUV_IntendedUse.swift in Sources */,
 				5130B4BB2B597E560044C8BC /* ViewThatFits_Intro.swift in Sources */,
 				5130B4C02B5987640044C8BC /* CUV_WithImages.swift in Sources */,

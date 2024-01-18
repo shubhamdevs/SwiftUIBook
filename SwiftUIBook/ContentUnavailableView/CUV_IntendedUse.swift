@@ -13,19 +13,19 @@ struct CUV_IntendedUse: View {
     
     var body: some View {
         if tags.isEmpty {
-            ContentUnavailableView(label: {
+            ContentUnavailableView {
                 Label("No Tags", systemImage: "tag.fill")
-            }, description: {
+            } description: {
                 Text("You don't have any tags yet. \nAdd a new tag today to get started!")
-            }, actions: {
-                Button(action: {
+            } actions: {
+                Button{
                     tags.append("Switzerland")
-                }) {
+                } label: {
                     Text("Add Tag")
                 }
                 .buttonStyle(.borderedProminent)
                 .controlSize(.regular)
-            })
+            }
         } else {
             List(tags, id: \.self) { tag in
                 Text(tag)
@@ -38,4 +38,3 @@ struct CUV_IntendedUse: View {
     CUV_IntendedUse()
 }
 
-// display when the content of your app is unavailable to users.
